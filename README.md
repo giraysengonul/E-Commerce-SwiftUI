@@ -1,6 +1,6 @@
 # E-Commerce-SwiftUI
 
-![Finished App](https://github.com/hakkicansengonul/images/blob/master/E-Commerce-SwiftUI-0.gif)     
+![Finished App](https://github.com/hakkicansengonul/images/blob/master/E-Commerce-SwiftUI-2.gif)     
 
  ![Finished App](https://github.com/hakkicansengonul/images/blob/master/E-Commerce-SwiftUI-1.gif)  
  
