@@ -8,25 +8,25 @@
 import SwiftUI
 
 struct FeaturedTabView: View {
-     // MARK: - PROPERTIES
+    // MARK: - PROPERTIES
     
-     // MARK: - BODY
+    // MARK: - BODY
     var body: some View {
         
-            TabView {
-                ForEach(players) { item in
-                    FeaturedItemView(player: item)
-                        .padding(.top,10)
-                        .padding(.horizontal,15)
-                }
+        TabView {
+            ForEach(players) { item in
+                FeaturedItemView(player: item)
+                    .padding(.top,10)
+                    .padding(.horizontal,15)
             }
-            .tabViewStyle(.page(indexDisplayMode: .always))
+        }
+        .tabViewStyle(.page(indexDisplayMode: .always))
         
     }
 }
 
 
- // MARK: - PREVIEW
+// MARK: - PREVIEW
 struct FeaturedTabView_Previews: PreviewProvider {
     static var previews: some View {
         FeaturedTabView().background(.gray)
