@@ -17,7 +17,9 @@ struct QuantityFavauriteDetailView: View {
         HStack(alignment: .center, spacing: 6) {
             Button {
                 if counter > 0 {
+                    feedback.impactOccurred()
                     counter -= 1
+                    
                 }
             } label: {
                 Image(systemName: "minus.circle")
@@ -28,6 +30,7 @@ struct QuantityFavauriteDetailView: View {
             
             Button {
                 if counter < 100 {
+                    feedback.impactOccurred()
                     counter += 1
                 }
             } label: {
@@ -35,7 +38,7 @@ struct QuantityFavauriteDetailView: View {
             }
             Spacer()
             Button {
-                
+                feedback.impactOccurred()
             } label: {
                 Image(systemName: "heart.circle")
                     .foregroundColor(.pink)

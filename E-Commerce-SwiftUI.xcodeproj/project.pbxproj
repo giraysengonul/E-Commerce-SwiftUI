@@ -41,6 +41,7 @@
 		C483551428576E6A00055250 /* RatingssizeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483551328576E6A00055250 /* RatingssizeDetailView.swift */; };
 		C48355162857735600055250 /* QuantityFavauriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48355152857735600055250 /* QuantityFavauriteDetailView.swift */; };
 		C48355182857752000055250 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48355172857752000055250 /* AddToCartDetailView.swift */; };
+		C4AF8F812857B8FF00EB3581 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF8F802857B8FF00EB3581 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		C483551328576E6A00055250 /* RatingssizeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingssizeDetailView.swift; sourceTree = "<group>"; };
 		C48355152857735600055250 /* QuantityFavauriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavauriteDetailView.swift; sourceTree = "<group>"; };
 		C48355172857752000055250 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		C4AF8F802857B8FF00EB3581 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			children = (
 				C47869372855E436003B50CB /* Constant.swift */,
 				C48355112857699B00055250 /* CustomShape.swift */,
+				C4AF8F802857B8FF00EB3581 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				C41BBB2828560B4700D60602 /* FeaturedItemView.swift in Sources */,
 				C48355122857699B00055250 /* CustomShape.swift in Sources */,
 				C4373A0428571B3000F03EE6 /* CategoryItemView.swift in Sources */,
+				C4AF8F812857B8FF00EB3581 /* Shop.swift in Sources */,
 				C41BBB22285606A100D60602 /* PlayerModel.swift in Sources */,
 				C483551428576E6A00055250 /* RatingssizeDetailView.swift in Sources */,
 				C41BBB262856079800D60602 /* CodableBundleExtension.swift in Sources */,
